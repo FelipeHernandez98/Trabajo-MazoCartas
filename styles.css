@@ -1,0 +1,25 @@
+@import url('reset.css');
+@import url('reticula.css');
+
+button img {
+	height: 150px;
+	width: 100px;
+}
+
+.formulario{
+	border: 1px solid black;
+	padding: 12px 20px 20px 20px;
+}
+
+input + p{
+	margin-top: 15px;
+}
+
+br + button {
+	margin-top: 18px;
+}
+
+table{
+	border:1px solid black;
+}
+

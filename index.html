@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mazo de cartas</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+
+		<div class="container">
+			<nav class="row between middle">
+				<div class="col-03">
+					<img src="img/encabezado.jpg">
+				</div>
+			</nav>
+		</div>
+	</header>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-08">
+				<div class="row">
+					<button class="col-03 boton-cartas" data-carta="1">
+						<img src="img/1.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="2">
+						<img src="img/2.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="3">
+						<img src="img/3.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="4">
+						<img src="img/4.png">
+					</button>
+				</div>
+				<div class="row">
+					<button class="col-03 boton-cartas" data-carta="5">
+						<img src="img/5.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="6">
+						<img src="img/6.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="7">
+						<img src="img/7.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="8">
+						<img src="img/8.png">
+					</button>
+				</div>
+				<div class="row">
+					<button class="col-03 boton-cartas" data-carta="9">
+						<img src="img/9.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="10">
+						<img src="img/10.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="11">
+						<img src="img/11.png">
+					</button>
+					<button class="col-03 boton-cartas" data-carta="12">
+						<img src="img/12.png">
+					</button>
+				</div>
+				<div class="row">
+					<button class="col-03 cartas">
+						<img src="img/13.png">
+					</button>
+				</div>
+			</div>
+
+			<div class="col-04">
+				<div class="row" id="json">
+					<table id="tabla">
+						<thead>
+						<tr><th>Numero</th><th>Carta</th><th>Cantidad</th></tr>
+						</thead>
+						<tbody id="listado">
+							<tr>
+								<th>1</th>
+								<td>As</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td>2 de diamantes</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<th></th>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="row formulario">		
+
+					<form>
+						<h2>Registro cartas</h2>
+						<p>Numero</p>
+							<input id="numero" id="inputCarta" type="text" name="numero">
+						<p>Carta</p>
+							<input id="carta" id="inputCarta" type="text" name="carta" >
+						<br>
+						<button id="registrar" class="button" type="button">Guardar</button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
